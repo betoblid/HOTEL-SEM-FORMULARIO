@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: rgb(0, 119, 255);
+}
+.box-logo a{
+    text-decoration: none;
+    color: black;
+}
+.container-topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+.box-nav a{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-size: 20px;
+    margin-left: 10px;
+}
+.box-nav a:hover{
+    border-bottom: 3px solid rgb(0, 119, 255);
+}
+.container-image{
+    background-image: url("img-fundo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+}
+/*SEÇÃO DOS QUARTOS COM TEXTO E IMAGEM*/
+.container-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.container-text h2{
+    font-size: 32px;
+}
+.container-text p{
+    margin-top: 20px;
+    font-size: 22px;
+}
+.box-quarto img{
+    width: 400px;
+    height: 45vh;
+    margin: 45px 10px;
+}
+
+.container-quartos{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*mechendo nas listas sobre os quartos*/
+h4{
+    text-align: center;
+    margin: 25px 0;
+    font-size: 26px;
+}
+.lista{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+    
+}
+/*PARTE DO RODA PE*/
+.footer{
+    background-color: rgb(1, 160, 107);
+    height: 40vh;
+    width: 100%;
+}
+
+.footer h3{
+    color: white;
+    font-size: 26px;
+    padding-top: 20px;
+    text-align: center;
+}
+.lista-fim p{
+    font-size: 20px;
+    margin: 0 15px 0 10px;
+    color: white;
+}
+.lista-fim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+     
+}
+.author{
+    padding-top: 15px;
+    text-align: center;
+    background-color: rgb(1, 160, 107);
+    color: white;
+    height: 10vh;
+}
+.author a{
+    color: white;
+    text-decoration: none;
+}

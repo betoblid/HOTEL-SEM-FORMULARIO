@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: rgb(0, 132, 255);
+}
+.box-topo a{
+    text-decoration: none;
+    color: black;
+}
+.container-topo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.box-link a{
+    font-size: 20px;
+    color: gray;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.box-link a:hover{
+    border-bottom: 2px solid rgb(0, 183, 255);
+}
+/*IMAGEM DE FUNDO DO TOPO*/
+.container-imagem{
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    background-image: url("img-fundo.jpg");
+    width: 100%;
+    height: 100vh;
+}
+.box-text h1{
+    font-size: 42px;
+}
+.box-text p, .text-quarto h2{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.box-text{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 141, 19, 0.404);
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    height: 40vh;
+    width: 40%;
+}
+/*seção quartos*/
+.text-quarto{
+    text-align: center;
+    margin: 40px auto;
+}
+.text-quarto p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.container-quartos img{
+    width: 30vw;
+    margin-left: 1em;
+    box-sizing: border-box;
+}
+.container-quartos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+}
+.container-quartos h3{
+    margin: 25px 0 25px 1em;
+    color: rgb(43, 43, 43);
+    padding-bottom: 9px;
+    border-bottom: 2px solid rgb(32, 78, 38);
+    width: 30vw;
+
+}
+/*usando hover para colocar efeito nos box de quartos*/
+.box-quarto:hover, .box-quarto-familia:hover, .box-quarto-casal:hover{
+    font-size: 25px;
+    text-decoration: none;
+}
+.box-quarto-casal a, .box-quarto-familia a, .box-quarto a{
+    text-decoration: none;
+}
+/*modificando a seção rotas*/
+.container-rota{
+    text-align: center;
+}
+.container-rota h2{
+    font-size: 34px;
+    color: rgb(46, 46, 46);
+}
+.container-rota p{
+    margin: 30px 0;
+    font-size: 22px;
+}
+/*a parte do sobre a pousada*/
+.sobre p{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.sobre{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.container-sobre{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 25px auto;
+    width: 80vw;
+    
+}
+/*lista do sobre dentro do HTML adicionei uma lista para ficar mas facil e limpo lembrete "alinhar as colunas para que fique mas bonitos"*/
+
+.lista li img{
+    width: 120px;
+}
+.lista{
+    margin: 25px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 35vw;
+       
+}
+.lista h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.lista p{
+    font-size: 16px;
+}
+.card-4 li img{
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+.card-2 li img,.card-3 li img, .card-4 li img{
+    width: 175px;
+}
+.card-1 li img{
+    height: 120px;
+    width: 170px;
+}
+.lista-final{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+}
+.lista-final p{
+    font-size: 18px;
+    margin: 0 15px 0 10px;
+    
+    
+}
+.rodape h2{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+.rodape{
+    background-color: rgb(1, 160, 107);
+    height: 38vh;
+    width: 100%;
+}
+hr{
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+}
+.fim{
+    
+    text-align: center;
+    background-color: rgb(1, 160, 107);
+    color: white;
+    width: 100%;
+}
+.fim a{
+    color: white;
+    text-decoration: none;
+}
